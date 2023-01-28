@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+    text-align: center;
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+    color: #7D6E83;
+}
+
+
+h2 {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: #7D6E83;
+}
+
+/*Table Tags*/
+
+table {
+    border: 2px solid #D0B8A8;
+    width: 650px;
+    margin: 0 auto;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit; 
+    color: #F8EDE3;
+    background-color: #7D6E83;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    text-align: center;
+    color: #7D6E83;
+    background-color: #F8EDE3;
+}
+
